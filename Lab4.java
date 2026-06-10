@@ -1,22 +1,23 @@
-// var. 1571
+// var. 9521
 public class Lab4 {
   public static void main(String[] args) {
-  E a = new E();
-  E b = new C();
-  C c = new C();
-  c.x31();
-  b.x17();
-  c.x37();
-  a.x9();
-  a.x10();
-  c.x20();
-  b.x19();
-  b.x34();
-  c.x28();
-  c.x35();
-  b.x25(a);
-  a.x25(b);
-  c.x25(c);
+  C a = new C();
+  C b = new H();
+  H c = new H();
+  c.s11();
+  b.s28();
+  a.s40();
+  c.s4();
+  a.s32();
+  a.s2();
+  a.s36();
+  c.s23();
+  a.s19();
+  a.s20();
+  a.s6(a);
+  c.s6(b);
+  c.s6(c);
   }
 }
-previous : 8
+previous : 9
+previous : 13
