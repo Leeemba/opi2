@@ -19,4 +19,3 @@ public class Lab4 {
   c.s6(c);
   }
 }
-previous : 1
