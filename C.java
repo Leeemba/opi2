@@ -1,74 +1,43 @@
-class C {
-  int s33;
-  int s8;
-  int s38;
-  int s26;
-  int s37;
-  long s18;
-  long s30;
-  long s3;
-  int[] s14 = {-2, 1, 3, 2, 0};
-  int[] s27 = {3, -1, 0, 2, -2};
-  int[] s7 = {1, -1, -1, 2};
-  static int s25;
-  static int s21;
-  static int s12;
-  static int s9;
-  static int s10;
+class C extends E {
   public C() {
-    s33 = 6;
-    s8 = 4;
-    s38 = 3;
-    s26 = 9;
-    s37 = 8;
-    s18 = 8L;
-    s30 = 6L;
-    s3 = 9L;
+    x22 = 4;
+    x24 = 8;
+    x16 = 8;
+    x30 = 9;
+    x29 = 4L;
   }
-  public void s11() {
-    System.out.println("метод s11 в классе C");
-    System.out.println(s26);
+  public void x31() {
+    System.out.println("метод x31 в классе C");
+    System.out.println(x22 - 4);
   }
-  public void s28() {
-    System.out.println("метод s28 в классе C");
-    System.out.println(--s37);
+  public void x17() {
+    System.out.println("метод x17 в классе C");
+    System.out.println(x1[1]);
   }
-  public void s40() {
-    System.out.println("метод s40 в классе C");
-    System.out.println(s33 - 5);
+  public void x37() {
+    System.out.println("метод x37 в классе C");
+    System.out.println(x16 - 1);
   }
-  public void s4() {
-    System.out.println("метод s4 в классе C");
-    System.out.println(s9++);
+  public static void x19() {
+    System.out.println("метод x19 в классе C");
+    System.out.println((x14 - 2));
   }
-  public void s32() {
-    System.out.println("метод s32 в классе C");
-    System.out.println(s26--);
+  public static void x34() {
+    System.out.println("метод x34 в классе C");
+    System.out.println(--x14);
   }
-  public void s2() {
-    System.out.println("метод s2 в классе C");
-    System.out.println(s8 << 1);
+  public static void x28() {
+    System.out.println("метод x28 в классе C");
+    System.out.println(x23);
   }
-  public static void s36() {
-    System.out.println("метод s36 в классе C");
-    System.out.println(s9);
+  public static void x35() {
+    System.out.println("метод x35 в классе C");
+    System.out.println((x23 + 4));
   }
-  public static void s23() {
-    System.out.println("метод s23 в классе C");
-    System.out.println((s9 - 4));
+  public void x25(E r) {
+    r.x37();
   }
-  public static void s19() {
-    System.out.println("метод s19 в классе C");
-    System.out.println(s10);
-  }
-  public static void s20() {
-    System.out.println("метод s20 в классе C");
-    System.out.println((s10 + 3));
-  }
-  public void s6(C r) {
-    r.s11();
-  }
-  public void s6(H r) {
-    r.s28();
+  public void x25(C r) {
+    r.x9();
   }
 }
